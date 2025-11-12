@@ -7,7 +7,7 @@ public class NumberUtilsTest {
 
     @Test
      void testIsEven_WithEvenNumber() {
-        NumberUtils utils = new NumberUtils();
+            NumberUtils utils = new NumberUtils();
         assertTrue(utils.isEven(4), "4 should be even");
     }
 
