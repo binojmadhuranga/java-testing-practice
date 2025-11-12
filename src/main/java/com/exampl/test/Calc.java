@@ -20,18 +20,5 @@ public class Calc {
         return a / b;
     }
 
-    // Main method to run the calculator
-    public static void main(String[] args) {
-        Calc calculator = new Calc();
-
-        System.out.println("=== Calculator Demo ===");
-        System.out.println("Addition: 10 + 5 = " + calculator.add(10, 5));
-        System.out.println("Subtraction: 10 - 5 = " + calculator.subtract(10, 5));
-        System.out.println("Multiplication: 10 * 5 = " + calculator.multiply(10, 5));
-        System.out.println("Division: 10 / 5 = " + calculator.divide(10, 5));
-
-        // Uncomment to see exception handling
-        // System.out.println("Division by zero: " + calculator.divide(10, 0));
-    }
 
 }
